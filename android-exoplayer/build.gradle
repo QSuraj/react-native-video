@@ -37,6 +37,8 @@ dependencies {
         exclude group: 'com.android.support'
     }
 
+    implementation group: 'org.checkerframework', name: 'checker', version: '2.5.3'
+
     // All support libs must use the same version
     implementation "androidx.annotation:annotation:1.1.0"
     implementation "androidx.core:core:1.1.0"
